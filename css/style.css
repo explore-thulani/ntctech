@@ -16,17 +16,16 @@
 .header{
 		border-radius: 15px;
 		padding: 15px;
-		opacity: 0.9;
+		opacity: 0.95;
 	}
 a.brand-logo{
   color: #fff;
-  padding: 13px 20px;
+  padding-top: 16px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
-a.brand-logo:hover{
-  background: #666;
-  padding: 13px 20px;
-}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -115,11 +114,12 @@ footer.page-footer {
   width: 110px;
   font-weight: bolder;
   padding: 8px 0;
+  color: white
 }
 
 .nav-border:hover{
-  background: #e0e0e0;
-  opacity: 0.9;
+  background: #fff;
+  color:#009688;
 }
 
 .top-nav{
@@ -165,4 +165,7 @@ footer.page-footer {
 .split {
   height: 40px;
   width: 100vw;
+}
+.dot {
+  color: #80cbc4;
 }
