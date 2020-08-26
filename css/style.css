@@ -166,3 +166,11 @@ footer.page-footer {
 .dot {
   color: #80cbc4;
 }
+.head-carousel {
+    height: 150px;
+    width: 100wh;
+    margin: auto;
+}
+.head-carousel > .carousel-item {
+    width: 300px;
+}
