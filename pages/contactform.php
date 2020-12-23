@@ -8,7 +8,19 @@ if (isset($_POST['submit'])){
 	$mailFrom = $_POST['email'];
 	$message = $_POST['message'];
 
-	$mailTo = "nonhlanhla@ntctechnologies.co.za";
+	$mailTo = "sales@ntctechnologies.co.za";
+
+	$email = $_POST['budget'];
+	if($email == 'Accounts Department'){
+		$mailTo = "accounts@ntctechnologies.co.za";
+	}
+	if($email == 'Sales Department'){
+		$mailTo = "sales@ntctechnologies.co.za";
+	}
+	if($email == 'Tech Department'){
+		$mailTo = "support@ntctechnologies.co.za";
+	}
+
 	$headers = "From: ".$mailFrom;
 	$txt = "You have receieved an e-mail from ".$name.".\n\n".$message."\n\n".$name." ".$number;
 
